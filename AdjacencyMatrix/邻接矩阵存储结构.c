@@ -11,7 +11,7 @@ typedef char VertexType;
   	/*顶点表*/
   	VertexType vexs[MAXVEX];
 
-    /*邻接矩阵，可以看作表*/
+    /*邻接矩阵，可以看作边表*/
   	EdgeType arc[MAXVEX][MAXVEX];
 
   	int numVertex, numEdges;
